@@ -2641,14 +2641,11 @@ input, select, textarea {
     border-right: none;
     border-left: none;
     position: relative;
-
   }
 
   .no-video .video-container video,
   .touch .video-container video {
     display: none;
-    background-image: url("../../images/banner.jpg");
-
   }
 
   .no-video .video-container .poster,
@@ -2677,6 +2674,7 @@ input, select, textarea {
     position: absolute;
     background: rgba(0, 0, 0, 0.4);
     width: 100%;
+    background-color: #f5fafa;
   }
 
   .video-container video {
