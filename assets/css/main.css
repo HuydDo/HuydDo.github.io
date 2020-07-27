@@ -2641,13 +2641,14 @@ input, select, textarea {
     border-right: none;
     border-left: none;
     position: relative;
-    background-image: url("../../images/banner.jpg");
 
   }
 
   .no-video .video-container video,
   .touch .video-container video {
     display: none;
+    background-image: url("../../images/banner.jpg");
+
   }
 
   .no-video .video-container .poster,
