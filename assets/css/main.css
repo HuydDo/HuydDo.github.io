@@ -2672,9 +2672,9 @@ input, select, textarea {
   .video-container .filter {
     z-index: 100;
     position: absolute;
-    background: rgba(0, 0, 0, 0.4);
+    /* background: rgba(0, 0, 0, 0.4); */
+    background: rgba(242, 247, 247,0.3);
     width: 100%;
-    background-color: #f5fafa;
   }
 
   .video-container video {
